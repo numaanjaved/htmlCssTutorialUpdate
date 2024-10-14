@@ -1,3 +1,45 @@
+<style>
+    .container-1{
+        display: flex;
+       /*
+        align-items: flex-start;
+        align-items: flex-end;
+        align-items: center;
+        flex-direction: column;
+        */ 
+    }
+
+    .container-2{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-1 div, .container-2 div{
+        border: 1px #ccc solid;
+        padding: 10px;
+    }
+
+    .box-1{
+        flex: 2;
+        order: 2;
+    }
+
+    .box-2{
+        flex: 1;
+        order: 1;
+    }
+
+    .box-3{
+        flex: 1;
+        order: 3;
+    }
+
+.container-2-box{
+    width: 27%;
+}
+
+</style>
+
 <div class="container-1">
     <div class="box-1">
         <h3>Box 1</h3>
