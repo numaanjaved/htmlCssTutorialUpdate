@@ -1,4 +1,4 @@
-<style>
+<style>@media(min-width:68px){
     .container-1{
         display: flex;
         /* /* align-items: flex-start;
@@ -14,8 +14,15 @@
            justify-content: center;
            justify-content: space-around;*/
            justify-content: space-between; 
+    } 
+
+}
+
+    .container-3{
+        display: flex;
+        flex-wrap: wrap;
     }
-    .container-1 div, .container-2 div{
+    .container-1 div, .container-2 div, .container-3 div{
         border: 1px #acc solid;
         padding: 10px;
     }
@@ -33,8 +40,13 @@
 
     }
     .container-2-box{
-        width: 27%;
+        /* width: 27%; */
         flex-basis: 27%;
+        justify-content: space-between;
+    }
+    .container-3-box{
+        flex-basis: 12%;
+        justify-content: space-between;
     }
 </style>
 <div class="container-1">
@@ -64,6 +76,32 @@
     </div>
     <div class="container-2-box">
         <h3>Box Six</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</div>
+<div class="container-3">
+    <div class="container-3-box">
+        <h3>Box seven</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="container-3-box">
+        <h3>Box Eight</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="container-3-box">
+        <h3>Box Nine</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="container-3-box">
+        <h3>Box Ten</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="container-3-box">
+        <h3>Box Eleven</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="container-3-box">
+        <h3>Box Twelve</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
 </div>
