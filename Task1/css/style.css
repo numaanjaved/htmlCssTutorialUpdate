@@ -9,6 +9,12 @@ body{
     margin:auto;
     overflow: hidden;
 }
+header{
+    background: grey;
+    color:#ffffff;
+    padding-top:0%;
+    min-height:auto;
+}
 header a{
     color:#ffffff;
     text-decoration: none;
@@ -17,9 +23,26 @@ header a{
     float:left;
     margin-top:auto;
 }
-header{
-    background: grey;
-    color:#ffffff;
-    padding-top:0%;
-    min-height:auto;
+header li{
+    float:left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+h1, a{
+    text-transform: uppercase;
+    text-align:left ;
+    text-decoration: none; 
+}
+a{
+    color: grey;
+    text-decoration: none;
+    line-height: 1em;
+}
+.post h3, p{
+    margin-left: 30px;
+    color: gray;
+}
+h3{
+    color: gray;
+    text-align: left;
 }
